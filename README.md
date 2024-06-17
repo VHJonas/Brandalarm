@@ -37,8 +37,11 @@ Het systeem bestaat uit de volgende componenten:
 ## Elektrische Schema's
 
 Voor het aansluiten van de componenten kun je de volgende elektrische schema's raadplegen:
-- [Elektrisch Schema ESP32 en KY-026 Branddetectiemodule](https://github.com/VHJonas/Brandalarm/blob/main/ESP32.jpg)
-- [Elektrisch Schema Raspberry Pi en KY-006 Passieve Buzzermodule](https://github.com/VHJonas/Brandalarm/blob/main/Raspi.jpg)
+### ESP32 met KY-026 (branddetectiemodule) en LED
+![Elektrisch Schema ESP32 met KY-026 Branddetectiemodule en LED](https://github.com/VHJonas/Brandalarm/blob/main/ESP32.jpg)
+
+### Raspberry Pi met KY-006 (passieve buzzermodule) en knop
+![Elektrisch Schema Raspberry Pi en KY-006 Passieve Buzzermodule](https://github.com/VHJonas/Brandalarm/blob/main/Raspi.jpg)
 
 ## C++ Codes
 

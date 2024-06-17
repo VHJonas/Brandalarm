@@ -8,6 +8,7 @@ Dit project beschrijft de ontwikkeling van een branddetectie- en alarmsysteem me
 - [Architectuur](#architectuur)
 - [Elektrische Schema's](#elektrische-schema's)
 - [C++ Codes](#c-codes)
+- [Python Code](#Python-Code)
 - [Documentatie](#documentatie)
 - [Installatie](#installatie)
 - [Gebruik](#gebruik)

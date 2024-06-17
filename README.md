@@ -27,8 +27,8 @@ Dit project beschrijft de ontwikkeling van een branddetectie- en alarmsysteem me
 
 Het systeem bestaat uit de volgende componenten:
 
-- **ESP32:** Verantwoordelijk voor het detecteren van brand en het activeren van het alarm.
-- **Raspberry Pi:** Fungeert als MQTT broker en zorgt voor de visuele monitoring via Grafana.
+- **ESP32:** Verantwoordelijk voor het detecteren van brand.
+- **Raspberry Pi:** Zorgt voor de werking van de buzzer en fungeert als MQTT broker en zorgt voor de visuele monitoring via Grafana.
 - **KY-026 Branddetectiemodule:** Detecteert de aanwezigheid van brand.
 - **KY-006 Passieve Buzzermodule:** Activeert het alarm bij branddetectie.
 - **MQTT-protocol:** Zorgt voor de communicatie tussen de ESP32 en de Raspberry Pi.
@@ -37,19 +37,19 @@ Het systeem bestaat uit de volgende componenten:
 ## Elektrische Schema's
 
 Voor het aansluiten van de componenten kun je de volgende elektrische schema's raadplegen:
-- [Elektrisch Schema ESP32 en KY-026 Branddetectiemodule](link-naar-schema-esp32-ky-026)
-- [Elektrisch Schema ESP32 en KY-006 Passieve Buzzermodule](link-naar-schema-esp32-ky-006)
+- [Elektrisch Schema ESP32 en KY-026 Branddetectiemodule](https://github.com/VHJonas/Brandalarm/blob/main/ESP32.jpg)
+- [Elektrisch Schema Raspberry Pi en KY-006 Passieve Buzzermodule](https://github.com/VHJonas/Brandalarm/blob/main/Raspi.jpg)
 
 ## C++ Codes
 
 De volgende C++ codes zijn beschikbaar voor dit project:
-- [Volledige C++ Code](link-naar-volledige-code)
-- [C++ Code om de Branddetectiemodule te Testen](link-naar-testcode-branddetectiemodule)
+- [Volledige C++ Code](https://github.com/VHJonas/Brandalarm/blob/main/full_code.ino)
+- [C++ Code om de Branddetectiemodule te Testen](https://github.com/VHJonas/Brandalarm/blob/main/Check_fire_LED.ino)
 
 ## Documentatie
 
 Meer gedetailleerde informatie over het project is te vinden in de volgende documentatie:
-- [Project Uitleg (PDF)](link-naar-pdf)
+- [Project Uitleg (PDF)](https://github.com/VHJonas/Brandalarm/blob/main/Herkansing%20Embedded%20Microcontroller%20Applications.pdf)
 
 ## Installatie
 

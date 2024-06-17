@@ -49,6 +49,11 @@ De volgende C++ codes zijn beschikbaar voor dit project:
 - [Volledige C++ Code](https://github.com/VHJonas/Brandalarm/blob/main/full_code.ino)
 - [C++ Code om de Branddetectiemodule te Testen](https://github.com/VHJonas/Brandalarm/blob/main/Check_fire_LED.ino)
 
+## Python Code
+
+De volgende python code voor dit project:
+- [Volledige Python Code](............)
+
 ## Documentatie
 
 Meer gedetailleerde informatie over het project is te vinden in de volgende documentatie:

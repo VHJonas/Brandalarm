@@ -49,7 +49,7 @@ mqttc.username_pw_set(mqtt_user, mqtt_password)
 mqttc.connect(mqtt_broker, mqtt_port, 60)  # Verbind met MQTT broker
 
 def check_button():
-    if button.is_pressed:
+    if button.is_pressed & alarm_active == True:
         print("Resetknop ingedrukt")  # Toont bericht bij indrukken van de resetknop
         mqttc.publish(reset, "1")  # Publiceer bericht om alarm te resetten
 
